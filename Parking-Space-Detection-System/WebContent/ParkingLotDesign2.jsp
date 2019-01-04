@@ -4,7 +4,6 @@ ParkingLotDeisgn2.jsp- file that creates parking lot design for admin page
 --%>
 
 <%@page import="java.sql.*, javax.sql.*, javax.naming.*"%>
-<%@ page import="com.garage.User" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>

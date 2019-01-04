@@ -4,7 +4,6 @@ EntryTicket.jsp- file which creates and entry ticket into garage to the user
 --%>
 
 <%@page import="java.sql.*, javax.sql.*, javax.naming.*"%>
-<%@ page import="com.garage.User" %>
 <%@ page import ="java.util.Date" %>
 <%@ page import ="java.util.Calendar" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
