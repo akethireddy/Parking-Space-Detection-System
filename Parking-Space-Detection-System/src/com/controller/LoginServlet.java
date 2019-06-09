@@ -57,7 +57,7 @@ public class LoginServlet extends HttpServlet {
 
             		if(uname.equals("admin"))
             		{
-            			 	HttpSession session = request.getSession(); //Creating a session
+            			 	HttpSession session = request.getSession(); //Creating a session here
             			 	session.setAttribute("Admin", uname); //setting session attribute
             			 	session.setMaxInactiveInterval(30*60);
                 			Cookie userName = new Cookie("user", uname);
